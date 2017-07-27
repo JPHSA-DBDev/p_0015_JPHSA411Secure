@@ -1,0 +1,78 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: aliceblue
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.JPHSA411_jumbotron {
+  padding: 5px;
+  margin-bottom: 5px;
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 2.1428571435;
+  color: #516d75;
+  background-color: #bcd5d6;
+}
+
+.navbar-header > a {
+    color: #bcd5d6;
+    text-decoration: none;
+    position:relative;
+
+
+
+}
+
+.navbar-header > a:hover {
+        color: white;
+    }
+       
+.jphsa_navbar-inverse {
+  background-color: #516d75;
+  border-color: #516d75;
+} 
+
+.jphsa_navbar-text {
+  color: #bcd5d6;
+  float: left;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.jphsa_navbar-inverse a:visited { color:#bcd5d6}
+.jphsa_navbar-inverse a:link { color:#bcd5d6}
+.jphsa_navbar-inverse a:active { color:#bcd5d6}
+.jphsa_navbar-inverse a:hover { color:#516d75}
+
+li a:visited { color:#516d75}
+li a:link { color:#516d75}
+li a:active { color:#516d75}
+li a:hover { color:#bcd5d6}
+
+.navbar-header H1 {
+    color: #bcd5d6;
+}
+
+.navbar-nav li {
+    margin-top: 1em;
+}

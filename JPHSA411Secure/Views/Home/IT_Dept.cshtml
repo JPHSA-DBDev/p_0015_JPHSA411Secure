@@ -1,0 +1,221 @@
+﻿@{
+    ViewBag.Title = "IT Dept Page";
+}
+
+<div class="JPHSA411_jumbotron col-md-12">
+    <h1>Directory Assistance</h1>
+    <p class="lead">IT Department</p>
+</div>
+
+<div class="clearfix visible-md"></div>
+
+
+<div class="container">
+    <!-- 1st Row-->
+    <div class="row">
+        <div class="col-md-5">
+            <h2>Other IT Pages</h2>
+            <ul>
+                <li>@Html.ActionLink("Printers", "IT_Dept_Printers", "Home")</li>
+                <li>@Html.ActionLink("Consoles, Apache, Front-Ends", "IT_Dept_Servers_Consoles", "Home")</li>
+                <li>@Html.ActionLink("References, Manuals", "IT_Dept_References", "Home")</li>
+                <li>@Html.ActionLink("Internal & External Links", "IT_Dept_Links", "Home")</li>
+
+             </ul>
+        </div>
+
+        <div class="col-md-5">
+            <h2>Quick Reports (SSRS)</h2>
+            <ul>
+                <li>
+                    Search Inventory (user, building, attached monitors and devices)
+                    <br />
+                    <a href="http://wbsql1/Reports_PROD/report/IT_Dept/INVENTORY/022_INVENTORY_search_attached_items_and_Users" target="_blank">CLICK</a>
+                </li>   
+                <li>
+                    Search Monitors (attached and un-attached)
+                    <br />
+                    <a href="http://wbsql1/Reports_PROD/report/IT_Dept/INVENTORY/024_Search_Monitors" target="_blank">CLICK</a>
+                </li>                                
+                <li>
+                    Inventory details (without Attached Monitors, nor Devices)
+                    <br/>
+                    <a href="http://wbsql1/Reports_PROD/report/IT_Dept/INVENTORY/020_INVENTORY_search_all_IP_devices" target="_blank">CLICK</a>
+                </li>
+                <li>
+                    Servers
+                    <br/>
+                    <a href="http://wbsql1/Reports_PROD/report/IT_Dept/004_Servers" target="_blank">CLICK</a>
+                </li>
+                <li>
+                    Dept Passwords
+                    <br/>
+                    <a href="http://wbsql1/Reports_PROD/report/IT_Dept/010_pWord" target="_blank">CLICK</a>
+                </li>
+                <li>
+                    Telephone Contacts
+                    <br/>
+                    <a href="http://wbsql1/Reports_PROD/report/IT_Dept/0005_Telephone_Contacts" target="_blank">CLICK</a>
+                </li>
+                <li>
+                    SysAid_UserName_Asset_and_LastLogin_given_IPAddress
+                    <br/>
+                    <a href="http://wbsql1/Reports_PROD/report/IT_Dept/SysAid_Reports/014_SysAid_UserName_Asset_and_LastLogin_given_IPAddress" target="_blank">CLICK</a>
+                </li>
+                <li>
+                    SysAid_Asset_IPAddress_Searchable
+                    <br/>
+                    <a href="http://wbsql1/Reports_PROD/report/IT_Dept/SysAid_Reports/012_SysAid_Asset_IPAddress_Searchable" target="_blank">CLICK</a>
+                </li>
+                <li>
+                    SysAid_Software_on_Computer_Searchable
+                    <br/>
+                    <a href="http://wbsql1/Reports_PROD/report/IT_Dept/SysAid_Reports/011_SysAid_Software_on_Computer_Searchable" target="_blank">CLICK</a>
+                </li>
+                <li>
+                    AD_groups_given_UserName
+                    <br/>
+                    <a href="http://wbsql1/Reports_PROD/report/IT_Dept/AD_Reports/001_AD_groups_given_UserName" target="_blank">CLICK</a>
+                </li>
+                <li>
+                    AD_Users_SearchBy_Name
+                    <br/>
+                    <a href="http://wbsql1/Reports_PROD/report/IT_Dept/AD_Reports/002_AD_Users_SearchBy_Name_Department_EmployeeID" target="_blank">CLICK</a>
+                </li>
+                <li>
+                    AD_Computers_Searchable
+                    <br/>
+                    <a href="http://wbsql1/Reports_PROD/report/IT_Dept/AD_Reports/003_AD_Computers_Searchable" target="_blank">CLICK</a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- 2nd Row -->
+    <div class="row">
+    
+        <div class="col-md-3">
+            <h2>SSRS</h2>
+            <ul>
+
+                <li>
+                    WAREHOUSE
+                    <br />
+                    <a href="http://wbsql1/Reports_WAREHOUSE/browse/" target="_blank">CLICK</a>
+                </li>
+                <li>
+                    Production
+                    <br />
+                    <a href="http://wbsql1/Reports_PROD/browse/" target="_blank">CLICK</a>
+                </li>
+                <li>
+                    WAREHOUSE Development
+                    <br />
+                    <a href="http://wbsql1/Reports_WAREHOUSE_DEV/browse/" target="_blank">CLICK</a>
+                </li>
+                <li>
+                    Development
+                    <br />
+                    <a href="http://wbsql1/Reports_DEV/browse/" target="_blank">CLICK</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="col-md-3">
+            <h2>Diagrams</h2>
+            <ul>
+                <li>
+                    EB 1st Floor Plan
+                    <br />
+                    <a href="~/files/EB_1st_Floor_2017_06_01.pdf" target="_blank">CLICK</a>
+                </li>
+                <li>
+                    EB 2nd Floor Plan
+                    <br />
+                    <a href="~/files/EB_2nd_Floor_2017_06_01.pdf" target="_blank">CLICK</a>
+                </li>
+                <li>
+                    WB Floor Plan
+                    <br />
+                    <a href="~/files/FLOOR_PLAN_WB.pdf" target="_blank">CLICK</a>
+                </li>
+                <li>
+                    River Oaks 2nd Floor Plan
+                    <br />
+                    <a href="~/files/FLOOR_PLAN_RO_Ports_NetworkJacks.pdf" target="_blank">CLICK</a>
+                </li>
+            </ul>
+        </div>
+
+
+        <div class="col-md-3">
+            <h2>Logs of interest</h2>
+            <ul>
+
+                <li>
+                    logon.log
+                    <br />
+                    <a href="file://///EBDC2/logonlog/logon.log" target="_blank">CLICK</a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- 3rd Row - EMPTY-->
+    <div class="row">
+        
+        <div class="col-md-3">
+            <!-- empty -->
+        </div>
+
+        <div class="col-md-3">
+            <!-- empty -->
+        </div>
+
+        <div class="col-md-3">
+            <!-- empty -->
+        </div>
+
+
+
+
+    </div>
+
+    <!-- 4th Row - EMPTY-->
+    <div class="row">
+        <div class="col-md-3">
+            <!-- empty -->
+        </div>
+
+        <div class="col-md-3">
+            <!-- empty -->
+        </div>
+
+
+        <div class="col-md-3">
+            <!-- empty -->
+        </div>
+
+    </div>
+
+    <!-- 5th Row - EMPTY-->
+    <div class="row">
+        <div class="col-md-3">
+            <!-- empty -->
+        </div>
+
+        <div class="col-md-3">
+            <!-- empty -->
+        </div>
+
+
+        <div class="col-md-3">
+            <!-- empty -->
+        </div>
+
+    </div>
+
+</div>
+

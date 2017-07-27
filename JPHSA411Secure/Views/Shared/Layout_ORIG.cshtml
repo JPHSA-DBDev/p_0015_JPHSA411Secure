@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JPHSA411</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    @*<a href="http://JPHSA411/"  target="_blank">
+            <img src="~/Images/JPHSA_Logo.jpg" alt="To Public Barriere Web-Site" >
+        </a>*@
+    @*<img src="~/Images/JPHSA_Logo.jpg" />*@
+    <div class="navbar jphsa_navbar-inverse navbar-fixed-top">              @*<=======================================NEW================ *@
+        @*<div class="navbar navbar-inverse nav-stacked">*@
+        @*<div class="navbar navbar-inverse navbar-fixed-top">*@
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="http://jphsa-ebweb2:65532/" target="_blank" class="h1">JPHSA411Secure</a>
+                @*@Html.ActionLink("JPHSA411", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })*@
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li>@Html.ActionLink("IT", "IT_Dept", "Home")</li>
+                    <li><a href="http://jphsa-ebweb2" target="_blank">JPHSA411</a></li>
+                    @*<li>@Html.ActionLink("SysAid", "SysAid_Incident", "Home")</li>*@
+                    @*<li>@Html.ActionLink("Contact", "Contact", "Home")</li>*@
+                    @*<li>@Html.ActionLink("How To", "How_To", "Home")</li>*@
+
+                </ul>
+                <div class="nav jphsa_navbar-text navbar-right">Hello, @User.Identity.Name!</div>             @*<=======================================NEW================ *@
+            </div>
+           
+        </div>
+    </div>
+
+
+
+<div class="container body-content">
+        @RenderBody()
+        <hr />
+        @*<footer>
+                <p> @DateTime.Now - JPHSA411</p>
+            </footer>*@
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
