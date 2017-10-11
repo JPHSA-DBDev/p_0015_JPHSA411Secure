@@ -149,6 +149,8 @@
     <Content Include="files\EB_2nd_Floor_2017_06_01.pdf">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="files\HT_029_Terminate_User_Access_from_JPHSA_Staff_Website.pdf" />
+    <Content Include="files\HT_0030__Set_Up_User_Access_to_JPHSA_Staff_Website.pdf" />
     <None Include="Properties\PublishProfiles\JPHSA411Secure_to_EBWEB2_v1.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
