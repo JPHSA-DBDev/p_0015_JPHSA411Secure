@@ -14,7 +14,17 @@ namespace JPHSA411Secure.Controllers
         {
             return View();
         }
+        #region Admin Dept ================================
+        
+        [Authorize(Roles = "jphsa411Secure_Admin")]
+        public ActionResult Admin_Dept()
+        {
+            //ViewBag.Message = "Your application description page.";
 
+            return View();
+        }
+
+        #endregion //BHCS DEPT ============================================
         #region BHCS Dept ================================
 
         [AllowAnonymous]
