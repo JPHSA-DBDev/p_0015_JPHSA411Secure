@@ -151,8 +151,8 @@
     </Content>
     <Content Include="files\HT_029_Terminate_User_Access_from_JPHSA_Staff_Website.pdf" />
     <Content Include="files\HT_0030__Set_Up_User_Access_to_JPHSA_Staff_Website.pdf" />
-    <Content Include="files\PractisForms Admin.pdf" />
     <Content Include="files\RO_2nd_Floor_2017_10_11.pdf" />
+    <Content Include="files\PractisForms Admin.pdf" />
     <None Include="Properties\PublishProfiles\JPHSA411Secure_to_EBWEB2_v1.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
