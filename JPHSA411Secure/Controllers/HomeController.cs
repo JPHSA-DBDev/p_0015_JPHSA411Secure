@@ -24,7 +24,9 @@ namespace JPHSA411Secure.Controllers
             return View();
         }
 
-        #endregion //BHCS DEPT ============================================
+        #endregion //Admin DEPT ============================================
+
+
         #region BHCS Dept ================================
 
         [AllowAnonymous]
@@ -36,6 +38,20 @@ namespace JPHSA411Secure.Controllers
         }
 
         #endregion //BHCS DEPT ============================================
+
+
+        #region JeffCare Dept ================================
+
+        [AllowAnonymous]
+        public ActionResult JeffCare_Dept()
+        {
+            //ViewBag.Message = "Your application description page.";
+
+            return View();
+        }
+
+        #endregion //JeffCare DEPT ============================================
+
 
         #region IT Dept ================================
 

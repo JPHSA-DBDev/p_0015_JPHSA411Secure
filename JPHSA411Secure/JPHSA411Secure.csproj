@@ -189,6 +189,7 @@
     <Content Include="Views\Home\IT_Dept_Servers_Consoles.cshtml" />
     <Content Include="Views\Home\BHCS_Dept.cshtml" />
     <Content Include="Views\Home\Admin_Dept.cshtml" />
+    <Content Include="Views\Home\JeffCare_Dept.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
